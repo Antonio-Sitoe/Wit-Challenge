@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules":true,
+    "yarn-error.log":true,
+    "yarn.lock":true,
+    "package.json":true,
+    "LICENSE":true,
+    ".gitattributes":true,
+    "public":true,
+    ".gitignore":true,
+    "README.md":true,
+    ".vscode":true,
+  }
+}
