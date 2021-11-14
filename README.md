@@ -30,11 +30,11 @@ Os parametros de avalicao para este challenge sao:
 
 # Ferramentas a usar
 
-## Styled Components;
+## ![Badge](https://img.shields.io/badge/Styled-Components-%237159c1?style=for-the-badge&logo=ghost)
 - Para estilizar os diferentes componentes, sugere-se a utilização de Styled Components (https://styled-
 components.com/);
 
-## React Hooks ![Badge](https://img.shields.io/badge/React-Hooks-%237159c1?style=for-the-badge&logo=ghost)
+## ![Badge](https://img.shields.io/badge/React-Hooks-%237159c1?style=for-the-badge&logo=ghost)
 - Sugere-se que os componentes sejam React Function Components ao invés de Class Componentes, sempre
 que possível. Privilegiar o uso de React Hooks
 
