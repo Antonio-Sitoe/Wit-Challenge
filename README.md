@@ -8,26 +8,25 @@ Este challenge tem como objectivo avaliar o conhecimento do candidatos em React.
 
 ## Feactures
 
-- [] Desenvolver um website responsivo (desktop, tablet e telemovel)
-- [] Ser possivel obter a previsao meteorologica para 5 dias de uma cidade inserida pelo utilizador
-- [] Mostrar a Temperatura Actual
-- [] Apresentacao de Erro, caso nao seja possivel obter a previsao, e explicar a razao pela qual nao foi possivel obter a informacao.
+- [x] Desenvolver um website responsivo (desktop, tablet e telemovel)
+- [x] Ser possivel obter a previsao meteorologica para 5 dias de uma cidade inserida pelo utilizador
+- [x] Mostrar a Temperatura Actual
+- [x] Apresentacao de Erro, caso nao seja possivel obter a previsao, e explicar a razao pela qual nao foi possivel obter a informacao.
 
 ## Feactures (extra)
 
-- [] Poder selecionar a unidade de medida da temperatura entre Celsius e Fahrenheit. Ao fazer essa mudanca, todoas as temperaturas apresentadas devem adaptar-se a nova semhaver um refresh completo da pagina (state (context))
-  - [] Apresentar um grafico com a evolucao da temperatura por dia. (+3)
+- [] Poder selecionar a unidade de medida da temperatura entre Celsius e Fahrenheit. Ao fazer essa mudanca, todas as temperaturas apresentadas devem adaptar-se a nova sem haver um refresh completo da pagina (state (context))
+  - [x] Apresentar um grafico com a evolucao da temperatura por dia. (+3)
   - [] Apresentar um mapa de temperatura centrado na cidade escolhida. (+2)
 
 ## Aspectos a ter em conta (Metricas de avalicao)
 Os parametros de avalicao para este challenge sao:
 
-- User experience.
-- User Interface.
-- Qualidade e estrutura do codigo.
-- Desenpenho do website desenvolvido.
-- Capacdade de cumprir deadlines.
-
+- [x] User experience.
+- [x] User Interface.
+- [] Qualidade e estrutura do codigo.
+- [] Desenpenho do website desenvolvido.
+- [] Capacdade de cumprir deadlines.
 
 # Ferramentas a usar
 
@@ -50,3 +49,5 @@ que possível. Privilegiar o uso de React Hooks
 
 # Horas
 Quinta-feira - 1 Hora
+Sexta - 8 horas
+Sabado - 7 

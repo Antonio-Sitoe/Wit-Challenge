@@ -1,0 +1,5 @@
+export const bgColor = '#081B25'
+export const bgColorPrimary = '#152C39'
+export const bgColorSecundary = '#0a2230'
+export const primaryColor = '#fefefe'
+export const Orange = 'orange'
