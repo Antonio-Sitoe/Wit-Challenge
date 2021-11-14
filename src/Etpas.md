@@ -23,13 +23,15 @@
 - [x] Aranjos mobile
 - [x] aranjos desktop
 - [x] Limpar as funcoes
-- [] Pagina 404
+- [x] Pagina 404
 
 6 -Etapa 6
-- [] Mapa
+- [-] Mapa
 - [x] grafico
-- [] optimizar
+- [x] Poder selecionar a unidade de medida da temperatura entre Celsius e Fahrenheit. Ao fazer essa mudanca, todas as temperaturas apresentadas devem adaptar-se a nova sem haver um refresh completo da pagina (state (context))
+
 
 7 - Etapa 7
-- [] Editar os arquivos do public
+- [x] optimizar (grafico e header)
+- [x] Editar os arquivos do public
 - [] Fazer o build

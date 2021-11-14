@@ -7,6 +7,7 @@ import { UserContext } from '../../Context/UserContext';
 import { Container } from '../../styles/Reset';
 import FilterDates from './Filter';
 import Loading from '../../Components/Loading/Loading';
+import Head from '../../Hooks/Head';
 
 const List = () => {
   const { weather } = React.useContext(UserContext);
@@ -33,6 +34,8 @@ const List = () => {
       />
       <PeriodsCards />
       <Cards lists={lists} />
+
+      <Head title={`5 day weather forecast`} descritption='weather' />
     </Container>
   );
 };

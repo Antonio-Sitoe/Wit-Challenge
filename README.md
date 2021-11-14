@@ -1,4 +1,4 @@
-# Wit Software
+<h1 style="text-align: center;">Wit Software</h1>
 
 A wit software e uma empresa que desenvolve produtos de software para operadores de telecomunicacoes de renome, e de presenca mundial. E especializada em solucoes de RCS, IP-Messaging, A.I e Chatbots, IPTV, ferramentas de costumer-engagement, mobile security e mobile payments. A empresa esta baseada em portugal e tem ja cerca de 350 colaboradores e um tracj record de grandes projectos internacionais. Os seus clientes estao distribuidos por varios paises da Europa, America, Asia e Africa.
 
@@ -15,18 +15,18 @@ Este challenge tem como objectivo avaliar o conhecimento do candidatos em React.
 
 ## Feactures (extra)
 
-- [] Poder selecionar a unidade de medida da temperatura entre Celsius e Fahrenheit. Ao fazer essa mudanca, todas as temperaturas apresentadas devem adaptar-se a nova sem haver um refresh completo da pagina (state (context))
-  - [x] Apresentar um grafico com a evolucao da temperatura por dia. (+3)
-  - [] Apresentar um mapa de temperatura centrado na cidade escolhida. (+2)
+- [x] Poder selecionar a unidade de medida da temperatura entre Celsius e Fahrenheit. Ao fazer essa mudanca, todas as temperaturas apresentadas devem adaptar-se a nova sem haver um refresh completo da pagina (state (context))
+- [x] Apresentar um grafico com a evolucao da temperatura por dia. (+3)
+- [-] Apresentar um mapa de temperatura centrado na cidade escolhida. (+2)
 
 ## Aspectos a ter em conta (Metricas de avalicao)
 Os parametros de avalicao para este challenge sao:
 
 - [x] User experience.
 - [x] User Interface.
-- [] Qualidade e estrutura do codigo.
-- [] Desenpenho do website desenvolvido.
-- [] Capacdade de cumprir deadlines.
+- [x] Qualidade e estrutura do codigo.
+- [x] Desenpenho do website desenvolvido.
+- [x] Capacdade de cumprir deadlines.
 
 # Ferramentas a usar
 
@@ -48,6 +48,7 @@ que possível. Privilegiar o uso de React Hooks
 ## API - OPENWEATHERMAP (https://openweathermap.org);
 
 # Horas
-Quinta-feira - 1 Hora
-Sexta - 8 horas
-Sabado - 7 
+- [x] Quinta-feira - 1 Hora
+- [x] Sexta - 8 horas
+- [x] Sabado - 12 horas
+- [x] Domingo - 5 Horas

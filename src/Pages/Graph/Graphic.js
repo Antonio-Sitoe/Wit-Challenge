@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { VictoryChart, VictoryArea } from 'victory';
 import { UserContext } from '../../Context/UserContext';
-import Loading from '../../Components/Loading/Loading'
+import Loading from '../../Components/Loading/Loading';
 
 const Graps = styled.div`
   display: grid;
@@ -27,7 +27,7 @@ const Graphic = () => {
           x: new Date(dt_txt)
             .toLocaleTimeString('en-US', { hour12: false })
             .replace(':00', ''),
-          y: Number(Converter(main.temp).replace('°C', '')),
+          y: Number(Converter(main.temp).slice(0, 2)),
         };
       });
       setGraph(elemets);

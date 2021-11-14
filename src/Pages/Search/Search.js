@@ -9,6 +9,7 @@ import { BASE_URL } from '../../Services/Api';
 import { UserContext } from '../../Context/UserContext';
 import { useNavigate } from 'react-router';
 import { Erro } from '../../Components/Form/Styles';
+import Head from '../../Hooks/Head';
 
 const Search = () => {
   const { setWeather } = React.useContext(UserContext);
@@ -40,6 +41,7 @@ const Search = () => {
         <Input onSubmit={handleSubmit} {...city} loading={loading} />
         {erro && <Erro>{erro.toString()}</Erro>}
       </SeachContainer>
+      <Head title="Pick location" descritption="Localization" />
     </Container>
   );
 };

@@ -8,6 +8,7 @@ import { UserContext } from '../../Context/UserContext';
 import PeriodsCards from '../../Components/PeriodsCards/PeriodsCards';
 import Loading from '../../Components/Loading/Loading';
 import { Erro } from '../../Components/Form/Styles';
+import Head from '../../Hooks/Head';
 
 const Home = () => {
   const { weather, Converter, erro } = React.useContext(UserContext);
@@ -25,6 +26,10 @@ const Home = () => {
         <MultiCards weather={weather} />
         <Sumary title='Periods of the day' />
         <PeriodsCards />
+        <Head
+          title={`Current Weather on ${weather.city.name}`}
+          descritption='weather'
+        />
       </Container>
     );
   return <Loading />;

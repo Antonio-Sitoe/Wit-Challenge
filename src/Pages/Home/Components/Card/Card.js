@@ -9,10 +9,19 @@ import {
 } from './CardStyle';
 import { ReactComponent as Location } from '../../../../Images/location.svg';
 import Image from '../../../../Components/Image/Image';
+import { UserContext } from '../../../../Context/UserContext';
 
 const Card = ({ weather, Converter }) => {
   const { icon } = weather.list[0].weather[0];
-  const [toogle, SetToogle] = React.useState(false);
+  const { setToogleConvert, toogleConvert, setLocal } =
+    React.useContext(UserContext);
+
+  function handleToogle() {
+    setToogleConvert((element) => (element === 0 ? 1 : 0));
+  }
+  React.useEffect(() => {
+    setLocal(toogleConvert);
+  }, [toogleConvert, setLocal]);
 
   return (
     <CardContainer>
@@ -35,12 +44,12 @@ const Card = ({ weather, Converter }) => {
           <Location />
           <p>{`${weather.city.name}, ${weather.city.country}`}</p>
         </span>
-        <ToogleContainer onClick={() => SetToogle((toogle) => !toogle)}>
-          Celcius
-          <ToogleButton left={toogle ? '2.5rem' : '0'}>
+        <ToogleContainer onClick={handleToogle}>
+          Celsius
+          <ToogleButton left={toogleConvert === 1 ? '2.5rem' : '0'}>
             <span></span>
           </ToogleButton>
-          Farinheit
+          Fahrenheit
         </ToogleContainer>
       </Cardfooter>
     </CardContainer>
