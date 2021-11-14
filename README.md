@@ -17,7 +17,7 @@ Este challenge tem como objectivo avaliar o conhecimento do candidatos em React.
 
 - [x] Poder selecionar a unidade de medida da temperatura entre Celsius e Fahrenheit. Ao fazer essa mudanca, todas as temperaturas apresentadas devem adaptar-se a nova sem haver um refresh completo da pagina (state (context))
 - [x] Apresentar um grafico com a evolucao da temperatura por dia. (+3)
-- [-] Apresentar um mapa de temperatura centrado na cidade escolhida. (+2)
+- [- -] Apresentar um mapa de temperatura centrado na cidade escolhida. (+2)
 
 ## Aspectos a ter em conta (Metricas de avalicao)
 Os parametros de avalicao para este challenge sao:
@@ -34,13 +34,6 @@ Os parametros de avalicao para este challenge sao:
 - Para estilizar os diferentes componentes, sugere-se a utilização de Styled Components (https://styled-
 components.com/);
 
-## FORMIK + YUP
-- Para a criação de possíveis formulários sugere-se a utilização de FORMIK (construção de forms) + YUP
-(validações) [https://formik.org/ e https://github.com/jquense/yup]
-
-## Typescript
-- Sugere-se que o código a produzir seja em React Type Script;
-
 ## React Hooks
 - Sugere-se que os componentes sejam React Function Components ao invés de Class Componentes, sempre
 que possível. Privilegiar o uso de React Hooks
@@ -52,3 +45,31 @@ que possível. Privilegiar o uso de React Hooks
 - [x] Sexta - 8 horas
 - [x] Sabado - 12 horas
 - [x] Domingo - 5 Horas
+
+
+## Passos para instalacao
+
+```jsx
+
+git clone https://github.com/Antonio-Sitoe/Wit-Challenge.git
+
+```
+
+```jsx
+
+cd Wit-Challenge
+
+```
+
+```jsx
+
+npm install or yarn install
+
+```
+
+
+```jsx
+
+npm start or yarn start
+
+```
