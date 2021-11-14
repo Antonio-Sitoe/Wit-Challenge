@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Wit Software</h1>
+<h1 align="center">Wit Software</h1>
 
 A wit software e uma empresa que desenvolve produtos de software para operadores de telecomunicacoes de renome, e de presenca mundial. E especializada em solucoes de RCS, IP-Messaging, A.I e Chatbots, IPTV, ferramentas de costumer-engagement, mobile security e mobile payments. A empresa esta baseada em portugal e tem ja cerca de 350 colaboradores e um tracj record de grandes projectos internacionais. Os seus clientes estao distribuidos por varios paises da Europa, America, Asia e Africa.
 
