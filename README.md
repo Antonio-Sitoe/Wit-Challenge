@@ -34,8 +34,7 @@ Os parametros de avalicao para este challenge sao:
 - Para estilizar os diferentes componentes, sugere-se a utilização de Styled Components (https://styled-
 components.com/);
 
-## React Hooks
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
+## React Hooks ![Badge](https://img.shields.io/badge/React-Hooks-%237159c1?style=for-the-badge&logo=ghost)
 - Sugere-se que os componentes sejam React Function Components ao invés de Class Componentes, sempre
 que possível. Privilegiar o uso de React Hooks
 
