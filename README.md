@@ -35,6 +35,7 @@ Os parametros de avalicao para este challenge sao:
 components.com/);
 
 ## React Hooks
+![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
 - Sugere-se que os componentes sejam React Function Components ao invés de Class Componentes, sempre
 que possível. Privilegiar o uso de React Hooks
 
